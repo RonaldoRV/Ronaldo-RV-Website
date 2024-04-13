@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ronaldo Romero Vergel</title>
+    <link rel="shortcut icon" href="images/code.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/39c285307a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/Ronal-Logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-x" style="color: #000000;" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" style="color: #000000;" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Computer Engineer</p>
+          <h1>
+            Hello, I'm <span>Ronaldo</span> <br />
+            Romero from B/bermeja
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------------about------------------->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/me.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hello! I am a Computer Engineering student with a passion for technology and programming. Currently in my ninth semester, I dedicate myself to learning new skills and expanding my knowledge in this field.
+              <br><br>
+              As a student, I have gained hands-on experience through various projects and assignments, which has helped me develop a strong foundation in computer science concepts such as algorithms, data structures, software engineering, and database management systems.
+              <br><br>
+              In addition to my academic studies, I am actively involved in English activities and study new programming languages to stay updated on the latest technologies and trends in the industry. My ultimate goal is to become a competent programmer and contribute to innovative solutions that can have a positive impact on society."
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Python</span><br />Developed a chatbot integrated with artificial intelligence </li>
+                <li><span>Kotlin</span><br/>Developed an app with a partner to track public transportation routes </li>
+                <li><span>HTML-CSS-JS</span><br/>Developed several static web pages</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2019</span><br />Systems Technician - Tabarca
+                </li>
+                <li>
+                  <span>2023</span><br />Network and Telecommunications Technician - PlanetaIP
+                </li>
+                <li>
+                  <span>2022-2024</span><br />Freelancing (equipment repair, web/app development)
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>Computer Engineer</span><br/>University Institute of Peace</li>
+                <li>
+                  <span>English B2</span><br /> Praxis Academy
+                </li>
+                <li>
+                  <span>Self-taught Courses</span><br />Completed various Udemy and Coursera courses related to programming.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------------services--------------------->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              I offer web development services designed to help you build a strong and effective online presence. My goal is to create a website that is easy to navigate, responsive, and accessible from different devices. Through my experience and knowledge in web programming, I can provide you with a variety of solutions that fit your needs and goals.
+            </p>
+  
+          </div>
+
+          <div>
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            <h2>Computer Repair</h2>
+            <p>
+              I am ready to assist you with issues related to your device. Whether it's a simple cleanup or a more complicated repair, we are willing to support you in all aspects. In addition to my technical skills, I offer personalized attention and transparency in the repair process.
+            </p>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>IT Services</h2>
+            <p>
+              These services may include, but are not limited to, web programming, computer systems, computer security, technical support, equipment maintenance, technology consulting, and software development. These services are essential for businesses in today's digital age, where technology has become an integral part of the day-to-day operations of many organizations.
+            </p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------------portfolio------------------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" />
+            <div class="layer">
+              <h3>AI ChatBot Desktop Technology Tool</h3>
+              <p>
+                The desktop application will provide information about the University Institute of Peace - UNIPAZ in order to improve information flow and response times to frequently asked questions from all its users.
+              </p>
+              <a href="https://www.youtube.com/watch?v=6dVOh0Udkhc&t=3s&ab_channel=RONALDOROMEROVERGEL"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" />
+            <div class="layer">
+              <h3>Real-time Bus Tracking Application</h3>
+              <p>
+                The application will track where the bus is in real-time.
+              </p>
+              <a href="https://www.youtube.com/shorts/IWXkmFdm0I8"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+              <h3>Online Shopping Application</h3>
+              <p>
+                The application will track where the bus is in real-time for Android only.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://wa.link/gxm16p" class="btn">Contact Me</a>
+      </div>
+    </div>
+
+    <!--------------------------Contact------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p> <i class="fa fa-envelope"></i> tutosronalprograms@gmail.com</p>
+            <p> <i class="fa-solid fa-phone"></i> +57 3209124220</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=100007213846489"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://wa.link/gxm16p"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <a href="images/Hoja de vida l Ronaldo Romero Vergel (2).pdf" download class="btn btn2">Download CV</a>
+        </div>
+         <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your name" required>
+              <input type="email" name="Email" placeholder="Your email" required>
+              <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+              <button type="submit" class="btn btn2">Send</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© BY </i> RONALDO ROMERO VERGEL</p>
+      </div>
+    </div>
+
+
+      <!--========== SCROLL UP ==========-->
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+    
+    <script src="script.js"></script>
+    </body>
+</html>

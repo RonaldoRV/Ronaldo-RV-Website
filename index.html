@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ronaldo Romero Vergel</title>
+    <link rel="shortcut icon" href="images/code.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/39c285307a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/Ronal-Logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Inicio</a></li>
+            <li><a href="#about">Acerca de</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#portfolio">Portafolio</a></li>
+            <li><a href="#contact">Contacto</a></li>
+            <i class="fa-solid fa-x" style="color: #000000;" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" style="color: #000000;" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Ing Informatico</p>
+          <h1>
+            Hola, Soy <span>Ronaldo</span> <br />
+            Romero de B/bermeja
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------------acerca de------------------->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/me.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">Acerca de mí</h1>
+            <p>
+              ¡Hola! Soy un estudiante de Ingenieria Informática con pasión por la tecnología y la programación. Actualmente en mi noveno semestre, me dedico a aprender nuevas habilidades y expandir mi conocimiento en este campo.
+              <br><br>
+              Como estudiante, he adquirido experiencia práctica a través de varios proyectos y tareas, lo que me ha ayudado a desarrollar una sólida base en conceptos de ciencias de la computación como algoritmos, estructuras de datos, ingeniería de software y sistemas de gestión de bases de datos.
+              <br><br>
+              Además de mis estudios académicos, participo activamente en actividades de ingles y estudio nuevos lenguajes de programacion para mantenerme actualizado sobre las últimas tecnologías y tendencias en la industria. Mi objetivo final es convertirme en un programador competente y contribuir a soluciones innovadoras que puedan tener un impacto positivo en la sociedad."
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Habilidades
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experiencia
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Educación</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Python</span><br />Desarrolle un chat bot integrado con inteligencia artificial </li>
+                <li><span>Kotlin</span><br/>Desarrolle una app en compañia de un compañero para rastrear las rutas del transporte publico </li>
+                <li><span>HTML-CSS-JS</span><br/>Desarrolle varias paginas web estaticas</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2019</span><br />Técnico en sistemas - Tabarca
+                </li>
+                <li>
+                  <span>2023</span><br />Técnico redes y telecomunicaciones - PlanetaIP
+                </li>
+                <li>
+                  <span>2022-2024</span><br />Freelancing (reparacion de equipos, desarrollo web/app)
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>Ingeniero Informático</span><br/>Instituto Universitario de la Paz</li>
+                <li>
+                  <span>B2 ingles</span><br /> Praxis Academy
+                </li>
+                <li>
+                  <span>Cursos autodidacta</span><br />Complete diversos cursos de udemy como tal de plataformas de  coursera relacionados a la programacion.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------------servicios--------------------->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Mis servicios</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Desarrollo Web</h2>
+            <p>
+              Ofrezco servicios de desarrollo web diseñados para ayudarte a construir una presencia en línea fuerte y efectiva. Mi objetivo es crear un sitio web que sea fácil de navegar, responsive y accesible desde diferentes dispositivos. A través de mi experiencia y conocimiento en programación web, puedo brindarte una variedad de soluciones que se adapten a tus necesidades y objetivos.
+            </p>
+  
+          </div>
+
+          <div>
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            <h2>Reparación de computadoras</h2>
+            <p>
+              Estoy listo para ayudarte en problemas relacionado con tu dispositivo. Sea una sencilla limpieza o una reparación más complicada, estamos dispuesto a apoyarte en todos los aspectos. Además de mi habilidad técnica, te ofrezco atención personalizada y transparencia en el proceso de reparación.
+            </p>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>Servicios informaticos</h2>
+            <p>
+              Estos servicios pueden incluir, pero no están limitados a, la programación web, sistemas informáticos, seguridad informática, soporte técnico, mantenimiento de equipos, asesoramiento en tecnología y desarrollo de software. Estos servicios son esenciales para las empresas en la era digital actual, donde la tecnología ha convertido en parte integral del día a día de muchas organizaciones.
+            </p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------------portafolio------------------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Mi trabajo</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" />
+            <div class="layer">
+              <h3>Herramienta tecnologica de escritorio ChatBot AI </h3>
+              <p>
+                La aplicación de escritorio brindara informacion sobre el Instituto Universitario de la Paz - UNIPAZ con el fin de mejorar la fluidez de informacion y los tiempos de respuestas a preguntas frecuentes de todos sus usuarios.
+              </p>
+              <a href="https://www.youtube.com/watch?v=6dVOh0Udkhc&t=3s&ab_channel=RONALDOROMEROVERGEL"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" />
+            <div class="layer">
+              <h3>Aplicación de rastreo de buses en tiempo real</h3>
+              <p>
+                La aplicación registrará dónde está el autobús en tiempo real.
+              </p>
+              <a href="https://www.youtube.com/shorts/IWXkmFdm0I8"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+              <h3>Pagina web de un gimnasio </h3>
+              <p>
+                La pagina dara un breve explicacion del gimnasio con sus distintos tipos de planes y membresias como modelos de entranimiento al que puedes acceder.
+              </p>
+              <a href="https://gymwebsiterr.netlify.app/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://wa.link/gxm16p" class="btn">Contactame</a>
+      </div>
+    </div>
+
+    <!--------------------------Contacto------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contáctame</h1>
+            <p> <i class="fa fa-envelope"></i> tutosronalprograms@gmail.com</p>
+            <p> <i class="fa-solid fa-phone"></i> +57 3209124220</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=100007213846489"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://wa.link/gxm16p"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <a href="images/Hoja de vida l Ronaldo Romero Vergel (2).pdf" download class="btn btn2">Descargar CV</a>
+        </div>
+         <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Tu nombre" required>
+              <input type="email" name="Email" placeholder="Tu correo electrónico" required>
+              <textarea name="Message" rows="6" placeholder="Tu mensaje"></textarea>
+              <button type="submit" class="btn btn2">Enviar</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© BY </i> RONALDO ROMERO VERGEL</p>
+      </div>
+    </div>
+
+
+      <!--========== SCROLL UP ==========-->
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+    
+    <script src="script.js"></script>
+    </body>
+</html>
